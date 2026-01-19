@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Treinador de Inglês</title>
+    <link rel="stylesheet" href=".css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>📘 Treinador de Vocabulário em Inglês</h1>
+
+    <div class="controls">
+        <label for="category">Categoria:</label>
+        <select id="category">
+            <option value="questions">Perguntas</option>
+            <option value="pronouns">Pronomes</option>
+            <option value="adjectives">Adjetivos</option>
+            <option value="verbs">Verbos</option>
+            <option value="connectives">Conectivos</option>
+        </select>
+
+        <button id="start">Nova Palavra</button>
+    </div>
+
+    <div class="card">
+        <h2 id="english-word">Clique em "Nova Palavra"</h2>
+    </div>
+
+    <div class="answer-area">
+        <input 
+            type="text" 
+            id="answer" 
+            placeholder="Digite a tradução em português"
+        />
+        <button id="check">Verificar</button>
+    </div>
+
+    <div id="feedback"></div>
+</div>
+
+<script src=".js"></script>
+</body>
+</html>
